@@ -99,35 +99,35 @@
         <!--JWT end-->
 
 
-        <dependency>
-            <groupId>com.atomikos</groupId>
-            <artifactId>transactions-hibernate4</artifactId>
-            <version>4.0.6</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.atomikos</groupId>-->
+<!--            <artifactId>transactions-hibernate4</artifactId>-->
+<!--            <version>4.0.6</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>com.atomikos</groupId>
-            <artifactId>transactions</artifactId>
-            <version>4.0.6</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.atomikos</groupId>-->
+<!--            <artifactId>transactions</artifactId>-->
+<!--            <version>4.0.6</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>com.atomikos</groupId>
-            <artifactId>transactions-jta</artifactId>
-            <version>4.0.6</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.atomikos</groupId>-->
+<!--            <artifactId>transactions-jta</artifactId>-->
+<!--            <version>4.0.6</version>-->
+<!--        </dependency>-->
 
-        <dependency>
-            <groupId>com.atomikos</groupId>
-            <artifactId>transactions-hibernate4</artifactId>
-            <version>4.0.6</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>hibernate</artifactId>
-                    <groupId>org.hibernate</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.atomikos</groupId>-->
+<!--            <artifactId>transactions-hibernate4</artifactId>-->
+<!--            <version>4.0.6</version>-->
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <artifactId>hibernate</artifactId>-->
+<!--                    <groupId>org.hibernate</groupId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+<!--        </dependency>-->
 
 
     </dependencies>
