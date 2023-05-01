@@ -1,6 +1,12 @@
+server:
+  port: 21413
+  servlet:
+    context-path: /
+    session:
+      timeout: 600s
+
+
 spring:
-  datasource:
-    url: jdbc:mongodb://localhost:27017/test
-    driver-class-name: com.mongodb.jdbc.MongoDriver
-    username: admin
-    password:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/people
