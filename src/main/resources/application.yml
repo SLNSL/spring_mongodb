@@ -10,3 +10,18 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/people
+  datasource:
+    url: jdbc:postgresql://localhost:5432/news
+    username: postgres
+    password: nnik1320
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy:
+
+hibernate:
+  transaction:
+    jta:
+      platform: com.atomikos.icatch.jta.hibernate4.AtomikosPlatform
+
